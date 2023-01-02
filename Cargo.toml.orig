@@ -1,27 +1,3 @@
-[package]
-name = "termcolor"
-version = "1.1.2"  #:version
-authors = ["Andrew Gallant <jamslam@gmail.com>"]
-description = """
-A simple cross platform library for writing colored text to a terminal.
-"""
-documentation = "https://docs.rs/termcolor"
-homepage = "https://github.com/BurntSushi/termcolor"
-repository = "https://github.com/BurntSushi/termcolor"
-readme = "README.md"
-keywords = ["windows", "win", "color", "ansi", "console"]
-license = "Unlicense OR MIT"
-exclude = ["/.travis.yml", "/appveyor.yml", "/ci/**"]
-edition = "2018"
-
-[lib]
-name = "termcolor"
-bench = false
-
-[target.'cfg(windows)'.dependencies]
-winapi-util = "0.1.3"
-
-[dev-dependencies]
-# TODO: Re-enable this once the MSRV is 1.43 or greater.
-# See: https://github.com/BurntSushi/termcolor/issues/35
-# doc-comment = "0.3"
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe3b81169486fad714b1658d958529c9bfd4170bad001b67bc713e27b75f6edd
+size 788
